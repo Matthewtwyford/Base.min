@@ -1,0 +1,230 @@
+/* 
+Name: STYLE - CUSTOM 2014/2015/2016
+Last updated: 24.02.2016 Creator: MT
+Notes: BASE <=> STYLE together
+Designed to be used in conjunction with Twitter Bootstrap.
+RESET included with Bootstrap. IF not used with BS, please use a reset.css
+*/
+
+/* STANDARD PAGE ELEMENT ************************************************************************************************************************* */
+html {color:#353535;}
+body {margin:0; padding:0; font-size:1rem;  font-family: "Open Sans",sans-serif; }
+
+/* Header */
+header {}
+
+/* Footer */
+footer {}
+footer ul li {list-style:none;}
+
+/* BOOTSTRAP OVERIDES **************************************************************************************************************************** */
+.container {position:relative;}
+.row {}
+.navbar {border:none;} /* overides bottom border of 1px  */
+.navbar-toggle {background:none;  border: 1px solid  /* SECONDARY */ ;}
+.icon-bar {background: /* SECONDARY */ ;}
+.carousel-caption {text-shadow:none;}
+
+/* SITE SPECIFIC STLYING ********************************************************************************************************************* */ 
+
+/* Text */
+.primary {color: /* PRIMARY */ ;} /* Primary text for the text colour */
+.secondary {color: /* SECONDARY */ ;} /* Secondary text for the text colour */
+.thirdly {color: /* THIRDLY */ ;} /* Thirdly text for the text colour */
+.fourthly {color: /* FOURTHLY */ ;} /* Fourthly text for the text colour */
+
+/* Background */
+.BGprimary {background:/* PRIMARY */ ;} /* Primary background colours */
+.BGsecondary {background: /* SECONDARY */ ;}  /* Secondary background colours */
+.BGthirdly {background: /* THIRDLY */ ;}  /* Thirdly background colours */
+.BGfourthly {background: /* FOURTHLY */ ;}  /* Fourthly background colours */
+
+/* Whites */
+.white {color:#FFFFFF!important;} 
+.BGwhite {background:#FFFFFF;}
+
+.offwhite {color:#FBFBFB!important;} 
+.BGoffwhite {background:#FBFBFB!important;}
+
+/* Greys */
+.lightgrey, .lightgrey a {color: #EEEEEE!important ;} 
+.BGlightgrey {background: #EEEEEE!important ;}
+.mediumgrey, mediumgrey a {color: #ECECEC!important ;} 
+.BGmediumgrey {background: #ECECEC!important ;}
+.BGdarkgrey {background: #9A9A9A!important ;}
+.darkgrey, .darkgrey a { color:#9A9A9A!important ;}
+
+/* Blacks */
+.black, .black a {color: #353535!important ;}
+.BGblack {background: #353535!important ;}
+
+/* Status colours  */
+.red {color:crimson!important ;}
+.green {color:green!important ;}
+
+/* Shadow */
+.shadow1 {box-shadow: 0 4px 3px 1px #E0DFDF;}
+.shadow2 {box-shadow: -1px 10px 10px -5px #CCCCCC;}
+.shadow3 {box-shadow: -1px 10px 3px 1px #CCCCCC;}
+
+.inshadow1{box-shadow: 0 10px 13px -7px #CCCCCC inset;}
+.inshadow2{box-shadow: 0 10px 13px -7px #919191 inset;}
+
+
+/* Border radius */
+.border-radius5 {border-radius:5px;} 
+.border-radius10 {border-radius:10px;} 
+.border-radius15 {border-radius:15px;}
+.border-radius20 {border-radius:15px;}
+.border-radius25 {border-radius:25px;}
+.border-radius30 {border-radius:30px;}
+.border-radius40 {border-radius:40px;}
+.border-radius50 {border-radius:50px;}
+
+/* Primary button */
+.btn-primary {padding:15px; margin:0px 5px; background:#FFFFFF; color: /* PRIMARY */ ;  border: /* PRIMARY */  solid 1px;  border-radius:0px; transition: background 0.8s ease 0s; display: inline-block;}
+.btn-primary:hover, .btn-primary:active , .btn-primary:focus  {background: /* PRIMARY */ ; color: #FFFFFF;  border:#FFFFFF solid 1px;  border-radius:0px; }
+a .btn-primary:hover, a .btn-primary:active, a .btn-primary:focus {text-decoration:none;} 
+
+/* Primary button inverse  */
+.btn-primary-inverse {padding:15px; margin:0px 5px; background: /* PRIMARY */ ; color:#FFFFFF;  border:#FFFFFF solid 1px;  border-radius:0px; transition: background 0.8s ease 0s; display: inline-block;}
+.btn-primary-inverse:hover, .btn-primary-inverse:active , .btn-primary-inverse:focus  {background:#FFFFFF; color: /* PRIMARY */ ;  border: /* PRIMARY */  solid 1px;  border-radius:0px; }
+a .btn-primary-inverse:hover, a .btn-primary-inverse:active , a .btn-primary-inverse:focus {text-decoration:none;} 
+ 
+/* Secondary button */
+.btn-secondary {padding:15px; margin:0px 5px; background:#FFFFFF; color: /* SECONDARY */ ;  border: /* SECONDARY */  solid 1px;  border-radius:0px; transition: background 0.8s ease 0s; display: inline-block;}
+.btn-secondary:hover, .btn-secondary:active , .btn-secondary:focus {background: /* SECONDARY */ ; color: #FFFFFF;  border: /* SECONDARY */  solid 1px;  border-radius:0px; }
+a.btn-secondary:hover, a.btn-secondary:active , a.btn-secondary:focus {text-decoration:none;} 
+
+/* Secondary button inverse */
+.btn-secondary-inverse {padding:15px; margin:0px 5px; background: /* SECONDARY */ ; color:#FFFFFF;  border:#FFFFFF solid 1px;  border-radius:0px; transition: background 0.8s ease 0s; display: inline-block;}
+.btn-secondary-inverse:hover, .btn-secondary-inverse:active , .btn-secondary-inverse:focus  {background:#FFFFFF; color: /* SECONDARY */ ;  border: /* SECONDARY */  solid 1px;  border-radius:0px; }
+a.btn-secondary-inverse:hover, a.btn-secondary-inverse:active , a.btn-secondary-inverse:focus {text-decoration:none;} 
+
+/* Thirdly button */
+.btn-thirdly {padding:15px; margin:0px 5px; background:#FFFFFF; color: /* THIRDLY */ ;  border: /* THIRDLY */  solid 1px;  border-radius:0px; transition: background 0.8s ease 0s; display: inline-block;}
+.btn-thirdly:hover, .btn-thirdly:active , .btn-thirdly:focus {background: /* THIRDLY */ ; color: #FFFFFF;  border: /* THIRDLY */  solid 1px;  border-radius:0px; }
+a.btn-thirdly:hover, a.btn-thirdly:active , a.btn-thirdly:focus {text-decoration:none;} 
+
+/* Thirdly button inverse */
+.btn-thirdly-inverse {padding:15px; margin:0px 5px; background: /* THIRDLY */ ; color:#FFFFFF;  border:#FFFFFF solid 1px;  border-radius:0px; transition: background 0.8s ease 0s; display: inline-block;}
+.btn-thirdly-inverse:hover, .btn-thirdly-inverse:active , .btn-thirdly-inverse:focus  {background:#FFFFFF; color: /* THIRDLY */ ;  border: /* THIRDLY */  solid 1px;  border-radius:0px; }
+a.btn-thirdly-inverse:hover, a.btn-thirdly-inverse:active , a.btn-thirdly-inverse:focus {text-decoration:none;} 
+
+/* Fourthly button */
+.btn-fourthly {padding:15px; margin:0px 5px; background:#FFFFFF; color: /* FOURTHLY */ ;  border: /* FOURTHLY */  solid 1px;  border-radius:0px; transition: background 0.8s ease 0s; display: inline-block;}
+.btn-fourthly:hover, .btn-fourthly:active , .btn-fourthly:focus {background: /* FOURTHLY */ ; color: #FFFFFF;  border: /* FOURTHLY */  solid 1px;  border-radius:0px; }
+a.btn-fourthly:hover, a.btn-fourthly:active , a.btn-fourthly:focus {text-decoration:none;} 
+
+/* Fourthly button inverse */
+.btn-fourthly-inverse {padding:15px; margin:0px 5px; background: /* FOURTHLY */ ; color:#FFFFFF;  border:#FFFFFF solid 1px;  border-radius:0px; transition: background 0.8s ease 0s; display: inline-block;}
+.btn-fourthly-inverse:hover, .btn-fourthly-inverse:active , .btn-fourthly-inverse:focus  {background:#FFFFFF; color: /* FOURTHLY */ ;  border: /* FOURTHLY */  solid 1px;  border-radius:0px; }
+a.btn-fourthly-inverse:hover, a.btn-fourthly-inverse:active , a.btn-fourthly-inverse:focus {text-decoration:none;} 
+
+
+/* Page elements */
+h1,h2,h3,h4,h5,h6,small {color: /* PRIMARY */ ; margin-top:10px; margin-bottom:10px;}
+h1 {font-size: 2.5rem;}
+h2 {font-size: 2.0rem;}
+h3 {font-size: 1.3rem;}
+h4 {font-size: 1.2rem;}
+h5 {font-size: 0.8rem;}
+h6 {font-size: 0.6rem;}
+hr {float:left; width:100%;}
+p {font-size: 1.0rem; line-height:35px;}
+a {color: /* PRIMARY */ ;}
+a:hover, a:active , a:focus {text-decoration: none; color: /* SECONDARY */ ;}
+
+.text-shadow {text-shadow: 1px 1px rgba(0, 0, 0, 0.1);}
+
+.thin {font-weight:300;}
+.thick {font-weight: 700;}
+
+/* Title */
+.title-small {font-size:1.0rem; font-weight:300;}
+.title-medium {font-size:1.5rem; font-weight:300;} 
+.title-large {font-size:3.0rem; font-weight:300;} 
+.title-xlarge {font-size:4.0rem; font-weight:300;} 
+.title-xxlarge {font-size:5.0rem; font-weight:300;} 
+
+/* Input */
+.input {width:100%; float:left; clear:both;}
+
+/* Border */
+.no-border {border:none;}
+
+.border-grey {border: 1px solid #E3E3E3;}
+.border-grey-t {border-top: 1px solid  #E3E3E3 ;}
+.border-grey-l {border-left: 1px solid  #E3E3E3 ;}
+.border-grey-b {border-bottom: 1px solid  #E3E3E3  ;}
+.border-grey-r {border-right: 1px solid #E3E3E3  ;}
+
+.border-white {border: 1px solid #FFFFFF ;}
+.border-white-t {border-top: 1px solid  #FFFFFF ;}
+.border-white-l {border-left: 1px solid  #FFFFFF ;}
+.border-white-b {border-bottom: 1px solid  #FFFFFF  ;}
+.border-white-r {border-right: 1px solid #FFFFFF  ;}
+
+.border-primary {border: 1px solid /* PRIMARY */ ;}
+.border-primary-t {border-top: 1px solid /* PRIMARY */ ;}
+.border-primary-l {border-left: 1px solid /* PRIMARY */ ;}
+.border-primary-b {border-bottom: 1px solid /* PRIMARY */ ;}
+.border-primary-r {border-right: 1px solid /* PRIMARY */ ;}
+
+.border-secondary {border: 1px solid /* SECONDARY */ ;}
+.border-secondary-t {border-top: 1px solid /* SECONDARY */ ;}
+.border-secondary-l {border-left: 1px solid /* SECONDARY */ ;}
+.border-secondary-b {border-bottom: 1px solid /* SECONDARY */ ;}
+.border-secondary-r {border-right: 1px solid /* SECONDARY */ ;}
+
+.border-thirdly {border: 1px solid /* THIRDLY */ ;}
+.border-thirdly-t {border-top: 1px solid /* THIRDLY */ ;}
+.border-thirdly-l {border-left: 1px solid /* THIRDLY */ ;}
+.border-thirdly-b {border-bottom: 1px solid /* THIRDLY */ ;}
+.border-thirdly-r {border-right: 1px solid /* THIRDLY */ ;}
+
+.border-fourthly {border: 1px solid /* FOURTHLY */ ;}
+.border-fourthly-t {border-top: 1px solid /* FOURTHLY */ ;}
+.border-fourthly-l {border-left: 1px solid /* FOURTHLY */ ;}
+.border-fourthly-b {border-bottom: 1px solid /* FOURTHLY */ ;}
+.border-fourthly-r {border-right: 1px solid /* FOURTHLY */ ;}
+
+/* Title underbar */
+.bar {
+  background: /* PRIMARY */ ;
+  display: block;
+  height: 2px;
+  margin: 15px auto;
+  width: 80px;
+}
+
+/* Title underbar */
+.bar-grey { background: #E3E3E3 ; display: block; height: 2px; margin: 15px auto; width: 80px;}
+.bar-white { background: #FFFFFF ; display: block; height: 2px; margin: 15px auto; width: 80px;}
+
+.bar-primary { background: /* PRIMARY */ ; display: block; height: 2px; margin: 15px auto; width: 80px;}
+.bar-secondary { background: /* SECONDARY */ ; display: block; height: 2px; margin: 15px auto; width: 80px;}
+.bar-thirdly { background: /* THIRDLY */ ; display: block; height: 2px; margin: 15px auto; width: 80px;}
+.bar-fourthly { background: /* FOURTHLY */ ; display: block; height: 2px; margin: 15px auto; width: 80px;}
+
+/* CMS FORM STYLING *******************************************************************************************************************
+Requires you add the class .form in the page module. Above and below in the module.
+Does not conflict with other styling, due to Specificity, nested in .from class container.  
+ */
+
+label {font-weight: lighter;}
+/* CMS FORMS - requires you add the class .form in the page module. Above and below */
+.form {background:auto; width:100%; float:left; padding:15px;}
+.form tr {margin:5px 0px 5px 0px; width:100%; float:left;}
+.form .formtitletd {}
+.form .formfieldtd {float:left; width:100%;}
+.form .formsubmittd {float:right;}
+.form input, .form textarea, .form select {background:white; border:none; padding:10px; width:100%;}
+.form select {background:white; border:0; padding:10px; width:50%;}
+.form .error {background:crimson; text-align:center; padding:10px 0px 10px 0px; color:white; }
+
+/* LET/SALES */
+.Sview, .Saleview { display: none;}
+
+/* ERROR */
+.error { color:white; border: none; border-radius: 0px; box-shadow: none; padding: 0px; position: absolute; z-index:99; min-height:0px;}
