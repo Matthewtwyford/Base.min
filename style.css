@@ -185,7 +185,7 @@ a:hover, a:active , a:focus {text-decoration: none; color:/*SECONDARY*/;}
 .bar-grey { background: #E3E3E3 ; display: block; height: 2px; margin: 15px auto; width: 80px;}
 .bar-white { background: #FFFFFF ; display: block; height: 2px; margin: 15px auto; width: 80px;}
 
-.bar-primary { background: /*PRIMARY*/; display: block; height: 2px; margin: 15px auto; width: 80px;}
-.bar-secondary { background: /*SECONDARY*/; display: block; height: 2px; margin: 15px auto; width: 80px;}
-.bar-thirdly { background: /*THIRDLY*/ ; display: block; height: 2px; margin: 15px auto; width: 80px;}
-.bar-fourthly { background: /*FOURTHLY*/ ; display: block; height: 2px; margin: 15px auto; width: 80px;}
+.bar-primary { background:/*PRIMARY*/; display: block; height: 2px; margin: 15px auto; width: 80px;}
+.bar-secondary { background:/*SECONDARY*/; display: block; height: 2px; margin: 15px auto; width: 80px;}
+.bar-thirdly { background:/*THIRDLY*/ ; display: block; height: 2px; margin: 15px auto; width: 80px;}
+.bar-fourthly { background:/*FOURTHLY*/ ; display: block; height: 2px; margin: 15px auto; width: 80px;}
