@@ -1,146 +1,60 @@
-Class Cheatsheet
+Class Cheatsheet STYLE.CSS
 
 For the sake of time I will only explain the not-so obvious classes and what they do.
 
 Find and Replace the following with the exact Hex or RGB colour code you would like to use. 
+
+Where exmaples is needed I have only use 'Primary' as all other colour classes will work. 
+
 /*PRIMARY*/ 
 /*SECONDARY*/
 /*THIRDLY*/
 /*FOURTHLY*/
 
+white
+offwhite 
+Light Grey #EEEEEE
+Medium Grey #ECECEC
+Dark Grey #9A9A9A
+Black #000000
 
+BGprimary - Background of element. 
+primary - Text colour of element.
 
-/* Bootstrap overides ******** */
-.container {}
-.row {}
-
-/* Text colour */
-.primary   {color:/*PRIMARY*/;}
-.secondary {color:/*SECONDARY*/;}
-.thirdly   {color:/*THIRDLY*/;}
-.fourthly  {color:/*FOURTHLY*/;}
-
-/* Background colour */
-.BGprimary   {background:/*PRIMARY*/;}
-.BGsecondary {background:/*SECONDARY*/;}
-.BGthirdly   {background:/*THIRDLY*/;}
-.BGfourthly  {background:/*FOURTHLY*/;}
-
-/* Whites */
-.white {color:#FFFFFF!important;} 
-.BGwhite {background:#FFFFFF;}
-
-.offwhite {color:#FBFBFB!important;} 
-.BGoffwhite {background:#FBFBFB!important;}
-
-/* Greys */
-.lightgrey, .lightgrey a {color: #EEEEEE!important ;} 
-.BGlightgrey {background: #EEEEEE!important ;}
-.mediumgrey, mediumgrey a {color: #ECECEC!important ;} 
-.BGmediumgrey {background: #ECECEC!important ;}
-.BGdarkgrey {background: #9A9A9A!important ;}
-.darkgrey, .darkgrey a { color:#9A9A9A!important ;}
-
-/* Blacks */
-.black, .black a {color: #000000!important ;}
-.BGblack {background: #000000!important ;}
 
 /* Status colours  */
-.red {color:crimson!important ;}
-.green {color:green!important ;}
+red
+green
 
 /* Shadows */
-.shadow1 {box-shadow: 0 4px 3px 1px #E0DFDF;}
-.shadow2 {box-shadow: -1px 10px 10px -5px #CCCCCC;}
-.shadow3 {box-shadow: -1px 10px 3px 1px #CCCCCC;}
+.shadow1/2/3 - Box Shadow
+.inshadow1/2 - Box inset shadow
 
-.inshadow1 {box-shadow: 0 10px 13px -7px #CCCCCC inset;}
-.inshadow2 {box-shadow: 0 10px 13px -7px #919191 inset;}
 
 /* Border radius */
-.radius5  {border-radius:5px;} 
-.radius10 {border-radius:10px;} 
-.radius15 {border-radius:15px;}
-.radius20 {border-radius:15px;}
-.radius25 {border-radius:25px;}
-.radius30 {border-radius:30px;}
-.radius40 {border-radius:40px;}
-.radius50 {border-radius:50px;}
+.radius5/10/15/20/25/30/40/50 - Box border radius
 
 /* Primary button */
-.btn-primary {padding:10px; margin:0px 5px; background:#FFFFFF; color:/*PRIMARY*/;  border:/*PRIMARY*/ solid 2px;  border-radius:0px; transition: background 0.8s ease 0s; display: inline-block;}
-.btn-primary:hover, .btn-primary:active , .btn-primary:focus  {background:/*PRIMARY*/; color:#FFFFFF;  border:#FFFFFF solid 2px;  border-radius:0px; }
-a .btn-primary:hover, a .btn-primary:active, a .btn-primary:focus {text-decoration:none;} 
+.btn-primary - Button Style
+.btn-primary - Inverse Inverse button style
 
-/* Primary button inverse  */
-.btn-primary-inverse {padding:10px; margin:0px 5px; background:/*PRIMARY*/; color:#FFFFFF;  border:#FFFFFF solid 2px;  border-radius:0px; transition: background 0.8s ease 0s; display: inline-block;}
-.btn-primary-inverse:hover, .btn-primary-inverse:active , .btn-primary-inverse:focus  {background:#FFFFFF; color:/*PRIMARY*/;  border:/*PRIMARY*/ solid 2px;  border-radius:0px; }
-a .btn-primary-inverse:hover, a .btn-primary-inverse:active , a .btn-primary-inverse:focus {text-decoration:none;} 
- 
-/* Secondary button */
-.btn-secondary {padding:10px; margin:0px 5px; background:#FFFFFF; color:/*SECONDARY*/;  border:/*SECONDARY*/ solid 2px;  border-radius:0px; transition: background 0.8s ease 0s; display: inline-block;}
-.btn-secondary:hover, .btn-secondary:active , .btn-secondary:focus {background:/*SECONDARY*/; color: #FFFFFF;  border:/*SECONDARY*/ solid 2px;  border-radius:0px; }
-a.btn-secondary:hover, a.btn-secondary:active , a.btn-secondary:focus {text-decoration:none;} 
-
-/* Secondary button inverse */
-.btn-secondary-inverse {padding:10px; margin:0px 5px; background:/*SECONDARY*/; color:#FFFFFF;  border:#FFFFFF solid 2px;  border-radius:0px; transition: background 0.8s ease 0s; display: inline-block;}
-.btn-secondary-inverse:hover, .btn-secondary-inverse:active , .btn-secondary-inverse:focus  {background:#FFFFFF; color:/*SECONDARY*/;  border:/*SECONDARY*/ solid 2px;  border-radius:0px; }
-a.btn-secondary-inverse:hover, a.btn-secondary-inverse:active , a.btn-secondary-inverse:focus {text-decoration:none;} 
-
-/* Thirdly button */
-.btn-thirdly {padding:10px; margin:0px 5px; background:#FFFFFF; color:/*THIRDLY*/;  border:/*THIRDLY*/ solid 2px;  border-radius:0px; transition: background 0.8s ease 0s; display: inline-block;}
-.btn-thirdly:hover, .btn-thirdly:active , .btn-thirdly:focus {background:/*THIRDLY*/; color: #FFFFFF;  border: /*THIRDLY*/  solid 2px;  border-radius:0px; }
-a.btn-thirdly:hover, a.btn-thirdly:active , a.btn-thirdly:focus {text-decoration:none;} 
-
-/* Thirdly button inverse */
-.btn-thirdly-inverse {padding:10px; margin:0px 5px; background:/*THIRDLY*/; color:#FFFFFF;  border:#FFFFFF solid 2px;  border-radius:0px; transition: background 0.8s ease 0s; display: inline-block;}
-.btn-thirdly-inverse:hover, .btn-thirdly-inverse:active , .btn-thirdly-inverse:focus  {background:#FFFFFF; color:/*THIRDLY*/;  border:/*THIRDLY*/  solid 2px;  border-radius:0px; }
-a.btn-thirdly-inverse:hover, a.btn-thirdly-inverse:active , a.btn-thirdly-inverse:focus {text-decoration:none;} 
-
-/* Fourthly button */
-.btn-fourthly {padding:10px; margin:0px 5px; background:#FFFFFF; color:/*FOURTHLY*/;  border:/*FOURTHLY*/ solid 2px;  border-radius:0px; transition: background 0.8s ease 0s; display: inline-block;}
-.btn-fourthly:hover, .btn-fourthly:active , .btn-fourthly:focus {background:/*FOURTHLY*/; color: #FFFFFF;  border:/*FOURTHLY*/  solid 2px;  border-radius:0px; }
-a.btn-fourthly:hover, a.btn-fourthly:active , a.btn-fourthly:focus {text-decoration:none;} 
-
-/* Fourthly button inverse */
-.btn-fourthly-inverse {padding:10px; margin:0px 5px; background:/*FOURTHLY*/; color:#FFFFFF;  border:#FFFFFF solid 2px;  border-radius:0px; transition: background 0.8s ease 0s; display: inline-block;}
-.btn-fourthly-inverse:hover, .btn-fourthly-inverse:active , .btn-fourthly-inverse:focus  {background:#FFFFFF; color:/*FOURTHLY*/;  border:/*FOURTHLY*/ solid 2px;  border-radius:0px; }
-a.btn-fourthly-inverse:hover, a.btn-fourthly-inverse:active , a.btn-fourthly-inverse:focus {text-decoration:none;} 
 
 /* Page elements */
-h1,h2,h3,h4,h5,h6,small {color: #353535; margin-top:10px; margin-bottom:10px;}
-h1 {font-size: 2.5rem;}
-h2 {font-size: 2.0rem;}
-h3 {font-size: 1.3rem;}
-h4 {font-size: 1.2rem;}
-h5 {font-size: 0.8rem;}
-h6 {font-size: 0.6rem;}
+h1,h2,h3,h4,h5,h6,small
 
 hr {float:left; width:100%;}
 p {font-size: 1.0rem; line-height:35px;}
 a {color: #353535;}
 a:hover, a:active , a:focus {text-decoration: none; color:/*SECONDARY*/;}
 
-.text-shadow {text-shadow: 1px 1px rgba(0, 0, 0, 0.1);}
+text-shadow  - Text Shadow
+thin/thick - Font-weight
+title-small/title-medium/large/xlarge/xxlarge - Font-size 
 
-.thin {font-weight:300;}
-.thick {font-weight:700;}
+no-border 
 
-/* Title */
-.title-small   {font-size:1.0rem;}
-.title-medium  {font-size:1.5rem;} 
-.title-large   {font-size:3.0rem;} 
-.title-xlarge  {font-size:3.7rem;} 
-.title-xxlarge {font-size:5.0rem;} 
-
-/* Border */
-.no-border {border:none;}
-
-.border-grey    {border: 1px solid #E3E3E3;}
-.border-grey-t  {border-top: 1px solid #E3E3E3;}
-.border-grey-l  {border-left: 1px solid #E3E3E3;}
-.border-grey-b  {border-bottom: 1px solid #E3E3E3;}
-.border-grey-r  {border-right: 1px solid #E3E3E3;}
+border-primay - Border Box
+border-primary-t/l/b/r - Border specific  Top,left,Right,Bottom
 
 .border-white   {border: 1px solid #FFFFFF;}
 .border-white-t {border-top: 1px solid #FFFFFF;}
