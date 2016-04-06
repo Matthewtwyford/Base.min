@@ -1,7 +1,7 @@
 # Base.min
 
 
-<h2>A add on CSS, and Jquery framework to be used with Twitter Bootstrap  V4. THIS IS UNDER DEVLOPMENT, and not completed!!</h2>
+<h2>An addon CSS class sheet, and Jquery framework to be used with Twitter Bootstrap  V4. THIS IS UNDER DEVLOPMENT, and not completed!!</h2>
 
 <p>
 A base stylesheet for use with Bootstrap 4
