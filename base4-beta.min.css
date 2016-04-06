@@ -1,0 +1,161 @@
+/* BASE4.min.css - Updated 06.04.16  - 5KB (reduced from 19KB).
+
+- REMOVED - Responsive-text class
+- ADDED - !important to all Padding and margins.
+- REMOVED absolute padding & Margins above 100 and 50px
+- REMOVED - REM units from Responsive styling
+
+NOTE 0.9375rem used as this it the Bootstrap4 padding/margin for cols / BS3 was 15px.
+
+*/
+
+body {margin:0; padding:0; font-family: "helvetica",sans-serif; }
+hr {float:left; width:100%;}
+italic {font-style:italic;}
+b, .bold{font-weight:bold;} 
+small {color:inherit; font-weight:200; font-size:0.5em;}
+.uppercase {text-transform:uppercase;} .lowercase {text-transform:capitalize;}
+ 
+.opacity1 {opacity:0.1;}
+.opacity2 {opacity:0.2;}
+.opacity3 {opacity:0.3;}
+.opacity4 {opacity:0.4;}
+.opacity5 {opacity:0.5;}
+.opacity6 {opacity:0.6;}
+.opacity7 {opacity:0.7;}
+.opacity8 {opacity:0.8;}
+.opacity9 {opacity:0.9;} 
+
+.hover {transition: background 0.8s ease 0s;} 
+.block{display:block;} .no-border {border:none;} .nolist {list-style:none;} 
+.underlined { text-decoration: underline!important;}
+.iframe {width:100%; border:none;}
+.no-margin {margin:0!important;} 
+.no-padding {padding:0!important;}
+
+.h5   {height:5px;}
+.h10  {height:10px}
+.h20  {height:20px;} 
+.h30  {height:30px;} 
+.h40  {height:40px;} 
+.h50  {height:50px;} 
+.h60  {height:60px;}
+.h70  {height:70px;}
+.h80  {height:80px;} 
+.h90  {height:90px;}  
+.h100 {height:100px;} 
+.h150 {height:150px;}
+.h200 {height:200px;}
+.h250 {height:250px;}
+.h300 {height:300px;}
+.h400 {height:400px;}
+.h500 {height:500px;}
+
+.minh5 {min-height:5px;}
+.minh10 {min-height:10px}
+.minh20 {min-height:20px;} 
+.minh30 {min-height:30px;} 
+.minh40 {min-height:40px;} 
+.minh50 {min-height:50px;} 
+.minh60 {min-height:60px;}
+.minh70 {min-height:70px;}
+.minh80 {min-height:80px;} 
+.minh90 {min-height:90px;} 
+.minh100 {min-height:100px;} 
+.minh150 {min-height:150px;}
+.minh200 {min-height:200px;}
+.minh250 {min-height:250px;}
+.minh300 {min-height:300px;}
+.minh400 {min-height:400px;}
+.minh500 {min-height:500px;}
+
+.z-1 {z-index:-1;}
+.z-2 {z-index:-2;}
+.z-3 {z-index:-3;}
+.z-4 {z-index:-4;}
+.z-5 {z-index:-5;}
+.z1 {z-index:1;}
+.z2 {z-index:2;}
+.z3 {z-index:3;}
+.z4 {z-index:4;}
+.z5 {z-index:5;}
+.z6 {z-index:6;}
+.z7 {z-index:7;}
+.z8 {z-index:8;}
+.z9 {z-index:9;}
+.z10 {z-index:10;}
+.z999 {z-index:999;} 
+
+.centre {display: block; margin-left: auto; margin-right: auto; text-align: center;} 
+.posr {position:relative;}
+.posa {position:absolute;}
+.posf {position:fixed;} 
+.top {top:0;} 
+.right {right:0;}
+.bottom {bottom:0;}
+.left {left:0;}
+.clear {clear:both;}
+.overflow {overflow:hidden;}
+.cover {width:100%; height:auto; float:left;}
+
+.mt0 {margin-top:0rem!important;}
+.mr0 {margin-right:0rem!important;} 
+.mb0 {margin-bottom:0rem!important;}
+.ml0 {margin-left:0rem!important;}
+.pt0 {padding-top:0rem!important;}
+.pr0 {padding-right:0rem!important;} 
+.pb0 {padding-bottom:0rem!important;}
+.pl0 {padding-left:0rem!important;}
+
+.mtxxs {margin-top:0.4rem!important;}
+.mtxs {margin-top:0.9375rem!important;}
+.mts {margin-top:5rem!important;}
+.mtm {margin-top:10rem!important;}
+.mtl {margin-top:15rem!important;}
+.mtxl {margin-top:15rem!important;}
+
+.mbxxs {margin-bottom:0.4rem!important;}
+.mbxs {margin-bottom:0.9375rem!important;}
+.mbs {margin-bottom:5rem!important;}
+.mbm {margin-bottom:10rem!important;}
+.mbl {margin-bottom:15rem!important;}
+.mbxl {margin-bottom:15rem!important;}
+
+.mxxs {margin-top:0.4rem!important; margin-bottom:0.4rem!important;}
+.mxs {margin-top:0.9375rem!important; margin-bottom:0.9375rem!important;}
+.ms {margin-top:5rem!important;  margin-bottom:5rem!important;}
+.mm {margin-top:10rem!important;  margin-bottom:10rem!important;}
+.ml {margin-top:15rem!important; margin-bottom:15rem!important;}
+.mx {margin-top:20rem!important; margin-bottom:20rem!important;}
+
+.ptxxs {padding-top:0.4rem!important;}
+.ptxs {padding-top:0.9375rem!important;}
+.pts {padding-top:5rem!important;}
+.ptm {padding-top:10rem!important;}
+.ptl {padding-top:15rem!important;}
+.ptxl {padding-top:20rem!important;}
+
+.pbxxs {padding-bottom:0.4rem!important;}
+.pbxs {padding-bottom:0.9375rem!important;}
+.pbs {padding-bottom:5rem!important;}
+.pbm {padding-bottom:10rem!important;}
+.pbl {padding-bottom:15rem!important;}
+.pbxl {padding-bottom:20rem!important;}
+
+.pxxs {padding-top:0.4rem!important; padding-bottom:0.4rem!important;}
+.pxs {padding-top:0.9375rem!important; padding-bottom:0.9375rem!important;}
+.ps {padding-top:5rem!important;  padding-bottom:5rem!important;}
+.pm {padding-top:10rem!important;  padding-bottom:10rem!important;}
+.pl {padding-top:15rem!important; padding-bottom:15rem!important;}
+.pxl {padding-top:20rem!important; padding-bottom:15rem!important;}
+
+/* X SMALL - XS devices */
+@media (min-width: 1em) { html {font-size:11px;} }
+/* SMALL DEVICES - SM (landscape phones, 34em and up) */
+@media (min-width: 34em) { html {font-size:12px;} }
+/* MEDIUM DEVICES - MD (tablets, 48em and up) */
+@media (min-width: 48em) { html {font-size:13px;} }
+/* LARGE DEVICES - LG (desktops, 62em and up) */
+@media (min-width: 62em) {html {font-size:14px;} }
+/* EXTRA LARGE DEVICES - LG (large desktops, 75em and up) */
+@media (min-width: 75em) { html {font-size:15px;} }
